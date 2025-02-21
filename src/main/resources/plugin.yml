@@ -1,0 +1,3 @@
+name: RandomSpawnFixed
+version: '${project.version}'
+main: net.utils.randomspawnfixed.RandomSpawnFixed
