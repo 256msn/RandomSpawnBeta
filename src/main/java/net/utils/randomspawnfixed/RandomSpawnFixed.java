@@ -47,8 +47,8 @@ public class RandomSpawnFixed extends JavaPlugin implements Listener {
 
     private Location getRandomSpawnLocation(World world) {
         Random random = new Random();
-        int spawnX = random.nextInt(300) - 150;
-        int spawnZ = random.nextInt(300) - 150;
+        int spawnX = random.nextInt(600) - 300;
+        int spawnZ = random.nextInt(600) - 300;
         int spawnY = world.getHighestBlockYAt(spawnX, spawnZ);
         return new Location(world, (double)spawnX, (double)spawnY, (double)spawnZ);
     }
